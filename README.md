@@ -60,8 +60,12 @@ This repository contains a collection of scripts designed to automate and simpli
       ```
   
 
-
-
+5. **download_file.sh**
+  - **Description:**  Downloads a file from a URL using `wget`.
+    - **Usage:** 
+    ```bash
+      ./download_file.sh https://example.com/file.zip
+      ```
 
 ## How to Use
 
