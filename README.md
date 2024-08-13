@@ -24,6 +24,23 @@ This repository contains a collection of scripts designed to automate and simpli
      ```bash
      ./urlshort.sh  https://www.example.com
      ```
+3. **screenshot.sh**
+   - **Description:** Takes a screenshot and saves it to a specified directory.
+   - **Usage:** 
+     ```bash
+     ./screenshot.sh
+     ```
+   - **Example:**
+     ```bash
+     ./screenshot.sh
+     ```
+   - **Notes:** The screenshot will be saved in the `~/Pictures/screenshots` directory with a timestamp in the filename. Ensure `gnome-screenshot` is installed.
+      - **install  `gnome-screenshot`**
+      ```bash
+       sudo apt-get install gnome-screenshot
+       ```
+
+
 
 ## How to Use
 
