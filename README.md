@@ -39,6 +39,27 @@ This repository contains a collection of scripts designed to automate and simpli
       ```bash
        sudo apt-get install gnome-screenshot
        ```
+4. **todo.sh**
+  - **Description:** A script to manage your to-do list. You can add tasks, mark tasks as done, list all tasks and completed tasks, and clear all tasks.
+   - **Usage:** 
+      - **Add a Task**:
+      ```bash
+      ./todo.sh add task1
+       ```
+      - **Mark a Task as Done**:
+      ```bash
+      ./todo.sh done task1
+      ```
+      - **List All Tasks and Completed Tasks**:
+      ```bash
+      ./todo.sh list
+      ```
+      - **Clear All Tasks**:  
+      ```bash
+      ./todo.sh clear
+      ```
+  
+
 
 
 
