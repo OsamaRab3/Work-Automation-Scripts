@@ -1,5 +1,9 @@
 #!/bin/bash
+echo -e "\e[32;1m" 
 
+figlet "Screen Shot"
+
+echo -e "\e[0m"
 # Define the directory to save screenshots
 SAVE_DIR="$HOME/Pictures/screenshots"
 mkdir -p "$SAVE_DIR"
