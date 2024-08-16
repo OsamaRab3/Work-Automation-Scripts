@@ -66,7 +66,24 @@ This repository contains a collection of scripts designed to automate and simpli
     ```bash
       ./download_file.sh https://example.com/file.zip
       ```
-
+6. **reboot.sh**
+  - **Description:** Reboots the system.
+    - **Usage:** 
+      ```bash
+      ./reboot.sh
+      ```
+7. **list-dir.sh**
+  - **Description:** List files in a directory
+   - **Usage:** 
+     ```bash
+      ./list-dir.sh
+      ```  
+8. **Process.sh**
+  -  **Description:** The script executes the ps command to display the list of processes running on the system.
+   - **Usage:** 
+     ```bash
+      ./Process.sh
+      ```  
 ## How to Use
 
 1. **Clone the repository:**
